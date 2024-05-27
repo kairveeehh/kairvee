@@ -1,0 +1,32 @@
+{
+  "name": "kairveee",
+  "module": "index.ts",
+  "type": "module",
+  "main": "index.js",
+  "private": false,
+  "author": {"name": "kairveee"},
+  "bin": {
+    "kairvee": "index.js"
+  },
+  "keywords": [
+    "cli",
+    "node",
+    "terminal-portfolio"
+  ],
+  "scripts": {
+    "start": "node index.js",
+    "build": "tsc"
+  },  
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "boxen": "^7.1.1",
+    "chalk": "^5.3.0"
+  },
+  "version": "1.1.0",
+  "license": "MIT"
+}
